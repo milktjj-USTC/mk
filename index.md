@@ -61,12 +61,6 @@ homepage:
 
 ​		参与海洋大数据可视化平台的后端部分开发工作，数据的处理、数据接口开发、风暴潮数据处理和整个服务的运维工作。数据处理是将不同研究小组的海洋数据进行规格化处理成统一表头的数据库，使用postgresql数据库对数据进行统一存取，使用springboot框架编写数据接口为前端提供数据服务，根据需求开发不同条件的查询接口；风暴潮数据处理主要是使用python写了个自动处理数据的工具，包括数据文件的分割、差值、栅格化和上色整个流程。
 
-## Mentoring
-
-Max Krieger (CMU, independent research & [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2018 - Now` <br>
-Courtney Miller (New College of Florida, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-Anael Kuperwajs Cohen (Macalester College, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-
 ## Honors & Awards
 
 CHI'20 Best Paper Honourable Mention Award `CMU, 2020` <br>
