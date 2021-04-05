@@ -49,22 +49,17 @@ homepage:
 
 ### **中国科学院空天信息研究院苏州研究院** `2018.7 -2020.8`
 
-工作岗位：地理信息平台研发工程师   22室
+职位：地理信息平台研发工程师   22室
 
-### **Carnegie Mellon University, Research Experiences for Undergraduate** `2017.5 - 2017.8`
+**国家数字地球先导项目**
 
-_Research Assistant_<br>
-**Penrose** is a system that automatically visualizes mathematics using two domain-specific languages: **Substance** and **Style**. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
+​		参与国家数字地球先导项目子课题的开发工作，子课题内容是海量栅格数据的存储与访问。本人负责并参与整套系统的开发、运行和维护工作，前端使用的是geoserver软件作为数据测试，存储后端使用的是 hbase+redis的架构。主要的工作内容是geoserver连接hbase组件的开发，根据栅格数据的XYZ属性生成四叉树编码将遥感数据进行分割，分割后的小型瓦片数据存入hbase，使用Redis作为分布式热点数据缓存； 使用gdal工具对栅格数据进行重投影、影像文件的校正、调整影像的波段等等，期间使用java和shell开发过一些工具方便工作的进行；后期的数据导入和服务器运维工作。
 
-### **Columbia University, Computer Graphics and User Interfaces Lab** `2017.1 - 2017.5`
 
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augumented Reality** project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
 
-### **AsiaInfo** `2015.6 - 2015.8`
+**海洋大数据可视化平台**
 
-_Software Engineering Intern_<br>
-Worked on server-side web applications and server deployment tools.
+​		参与海洋大数据可视化平台的后端部分开发工作，数据的处理、数据接口开发、风暴潮数据处理和整个服务的运维工作。数据处理是将不同研究小组的海洋数据进行规格化处理成统一表头的数据库，使用postgresql数据库对数据进行统一存取，使用springboot框架编写数据接口为前端提供数据服务，根据需求开发不同条件的查询接口；风暴潮数据处理主要是使用python写了个自动处理数据的工具，包括数据文件的分割、差值、栅格化和上色整个流程。
 
 ## Mentoring
 
