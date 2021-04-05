@@ -53,42 +53,12 @@ homepage:
 
 **国家数字地球先导项目**
 
-​	      参与国家数字地球先导项目子课题的开发工作，子课题内容是海量栅格数据的存储与访问。本人负责并参与整套系统的开发、运行和维护工作，前端使用的是geoserver软件作为数据测试，存储后端使用的是 hbase+redis的架构。主要的工作内容是geoserver连接hbase组件的开发，根据栅格数据的XYZ属性生成四叉树编码将遥感数据进行分割，分割后的小型瓦片数据存入hbase，使用Redis作为分布式热点数据缓存； 使用gdal工具对栅格数据进行重投影、影像文件的校正、调整影像的波段等等，期间使用java和shell开发过一些工具方便工作的进行；后期的数据导入和服务器运维工作。
+​&ensp;&ensp;参与国家数字地球先导项目子课题的开发工作，子课题内容是海量栅格数据的存储与访问。本人负责并参与整套系统的开发、运行和维护工作，前端使用的是geoserver软件作为数据测试，存储后端使用的是 hbase+redis的架构。主要的工作内容是geoserver连接hbase组件的开发，根据栅格数据的XYZ属性生成四叉树编码将遥感数据进行分割，分割后的小型瓦片数据存入hbase，使用Redis作为分布式热点数据缓存； 使用gdal工具对栅格数据进行重投影、影像文件的校正、调整影像的波段等等，期间使用java和shell开发过一些工具方便工作的进行；后期的数据导入和服务器运维工作。
+
 
 
 
 **海洋大数据可视化平台**
 
-​		    参与海洋大数据可视化平台的后端部分开发工作，数据的处理、数据接口开发、风暴潮数据处理和整个服务的运维工作。数据处理是将不同研究小组的海洋数据进行规格化处理成统一表头的数据库，使用postgresql数据库对数据进行统一存取，使用springboot框架编写数据接口为前端提供数据服务，根据需求开发不同条件的查询接口；风暴潮数据处理主要是使用python写了个自动处理数据的工具，包括数据文件的分割、差值、栅格化和上色整个流程。
+​&ensp;&ensp;参与海洋大数据可视化平台的后端部分开发工作，数据的处理、数据接口开发、风暴潮数据处理和整个服务的运维工作。数据处理是将不同研究小组的海洋数据进行规格化处理成统一表头的数据库，使用postgresql数据库对数据进行统一存取，使用springboot框架编写数据接口为前端提供数据服务，根据需求开发不同条件的查询接口；风暴潮数据处理主要是使用python写了个自动处理数据的工具，包括数据文件的分割、差值、栅格化和上色整个流程。
 
-## Honors & Awards
-
-CHI'20 Best Paper Honourable Mention Award `CMU, 2020` <br>
-Phi Beta Kappa `Dickinson, 2018` <br>
-Excellence in Computer Science Award `Columbia, 2018` <br>
-Travel Award PL Mentoring Workshop (PLMW) `SPLASH, 2018` <br>
-Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honors `Dickinson, 2016` <br>
-Pi Mu Epsilon, Mathematics Honor Society `Dickinson, 2016` <br>
-Upsilon Pi Epsilon, Computer Science Honor Society `Dickinson, 2016` <br>
-Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
-John Montgomery Scholarship `Dickinson, 2013` <br>
-
----
-
-## Teaching
-
-Teaching Assistant, **Programming Languages and Translators (COMS 4115)** `Columbia, 2017 - 2018` <br>
-Teaching Assistant, **Introduction to Java II (COMP 132)** `Dickinson, 2016` <br>
-Peer Tutor, **Data Structures and Problem Solving (COMP 232)** `Dickinson, 2016` <br>
-Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
-
-
-## Service
-
-Reviewer `CHI 2021`
-Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2020`
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
