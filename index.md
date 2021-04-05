@@ -9,10 +9,10 @@ homepage:
   text: cs.cmu.edu/~woden
 ---
 
-## 个人简历
+
 
 ## 联系方式
-- 手机：13162306957
+- 手机：13162306957   唐嘉靖
 - Email：milktjj@outlook.com
 - QQ：821582952
 - 微信号：13162306957
