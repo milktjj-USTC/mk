@@ -75,7 +75,7 @@ homepage:
 ## 专业技能
 
 语言：掌握Java、可以使用Python、Shell编写脚本
-数据：了解并搭建使用过HDFS、HBase、Redis等分布式存储
+数据：搭建并使用过HDFS、HBase、Redis等分布式存储
 其他：linux操作系统的使用、使用过SpringBoot和Mybatis框架
 
 ## 杂项
